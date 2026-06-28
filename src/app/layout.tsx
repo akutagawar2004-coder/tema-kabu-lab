@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   },
   description:
     "目まぐるしく変わる株式市場の情報を中立・わかりやすくまとめるメディア。日本株・米国株のテーマ・銘柄情報を整理してお届けします。",
+  verification: {
+    google: "nrezYP6LL6ambC3qhPNeNuhZlWJT-lhktA83Ed-uswg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
