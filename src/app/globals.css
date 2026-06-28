@@ -35,4 +35,16 @@
   .article-body blockquote {
     @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4;
   }
+  .article-body table {
+    @apply w-full border-collapse text-sm my-6;
+  }
+  .article-body th {
+    @apply bg-gray-100 text-gray-700 font-semibold text-left px-3 py-2 border border-gray-200;
+  }
+  .article-body td {
+    @apply px-3 py-2 border border-gray-200 text-gray-700;
+  }
+  .article-body tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
 }
